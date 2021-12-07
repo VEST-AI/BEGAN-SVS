@@ -1,11 +1,12 @@
 # BEGAN-SVS
 
 BEGAN을 이용한 Singing Voice Synthesis(가창합성) 모델의 성능 향상 연구 프로젝트입니다. 본 연구에서는 이미지 생성에 최적화 되어있던 original BEGAN모델을 오디오 생성모델(SVS모델)에 적용시킬 때 generator loss에 추가된 L1 loss가 과적합문제를 일으켜 본래 감마값의 정의를 변질시킨다는 문제를 제기했고,  generator loss 함수에 L1 loss의 가중치 alpha를 도입하고 조절함으로써 이 문제를 해결하는 방안을 제시하였습니다. 또한 BEGAN SVS모델이 가장 고품질의 오디오를 생성해내는 alpha, gamma 값을 제안합니다. **(본 모델은 한국어로 된 노래만을 지원합니다.)**
+ - 포스터 세션 및 시연 영상: https://www.youtube.com/watch?v=Lfbhz74w3Sw
+ - 결과 확인: https://livviee.github.io/BEGAN-Sing/
 
 ![그로쓰_15_벗맴내맴_1118_포스터_김민애](https://user-images.githubusercontent.com/85385027/145051553-fc529bcb-e9da-4288-8e1f-b01398b6de56.png)
 
- - 포스터 세션 및 시연 영상: https://www.youtube.com/watch?v=Lfbhz74w3Sw
- - 결과 확인: https://livviee.github.io/BEGAN-Sing/
+
 
 
 # 실행순서
