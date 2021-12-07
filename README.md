@@ -46,7 +46,6 @@ python train.py -c config/default_train.yml --device 0 --batch_size 32
   - 음성합성결과는 설정한 checkpoint 경로 내에 생성됩니다.
 ```
 python infer.py -c config/default_train.yml config/default_infer.yml --device 0
-
 ```
 
 ### Results
