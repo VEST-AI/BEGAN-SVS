@@ -50,5 +50,5 @@ python infer.py -c config/default_train.yml config/default_infer.yml --device 0
 ```
 
 ### Results
-2시간 38분 분량의 어린이 동요 데이터셋(CSD)으로 alpha,gamma 값을 달리하여 총 9가지 모델을 학습 한 결과입니다. Inference는 아이유의 
+2시간 38분 분량의 어린이 동요 데이터셋(CSD)으로 alpha,gamma 값을 달리하여 총 9가지 모델을 학습 한 결과입니다. Inference는 아이유의 '나의 옛날 이야기' 가사와 MIDI파일로 진행하였습니다.
  - 결과 확인 : https://livviee.github.io/BEGAN-Sing/
