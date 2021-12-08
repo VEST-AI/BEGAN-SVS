@@ -45,7 +45,7 @@ python train.py -c config/default_train.yml --device 0 --batch_size 32
 ### 3. Inference
   - 모델 학습이 완료되면, 가사 text 파일과 MIDI 파일을 통해 가창합성 된 오디오를 생성 할 수 있습니다. (text와 MIDI는 마찬가지로 align된 상태여야 합니다.)
   - config/default_infer.yml의 text_file에 inference 하고자 하는 text 파일의 경로를 설정합니다.(MIDI 파일은 text파일 이름과 같다고 간주됩니다.) 
-  - 음성합성결과는 설정한 checkpoint 경로 내에 생성됩니다.
+  - 가창합성결과는 설정한 checkpoint 경로 내에 생성됩니다.
 ```
 python infer.py -c config/default_train.yml config/default_infer.yml --device 0
 ```
